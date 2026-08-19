@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#050608"/>
+  <circle cx="950" cy="315" r="350" fill="#9D4EDD" opacity="0.12" filter="blur(80px)"/>
+  <circle cx="250" cy="315" r="350" fill="#FF5C00" opacity="0.18" filter="blur(80px)"/>
+  <circle cx="600" cy="315" r="280" stroke="#FF5C00" stroke-width="1.5" stroke-dasharray="6,6" fill="none" opacity="0.3"/>
+  
+  <text x="100" y="160" font-family="monospace" font-size="20" font-weight="700" fill="#10B981" letter-spacing="4">● BUILDING DIGITAL SOLUTIONS</text>
+  
+  <text x="100" y="270" font-family="serif" font-size="100" font-weight="900" fill="#FFFFFF" letter-spacing="4">HAR<tspan fill="#FF5C00">SHAN</tspan></text>
+  
+  <text x="100" y="340" font-family="sans-serif" font-size="28" font-weight="800" fill="#E5E7EB" letter-spacing="3">3-IN-1 MULTI-ROLE PORTFOLIO</text>
+  
+  <rect x="100" y="380" width="340" height="42" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="120" y="407" font-family="monospace" font-size="16" font-weight="700" fill="#FF5C00">01. DATA ANALYST</text>
+  
+  <rect x="460" y="380" width="340" height="42" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="480" y="407" font-family="monospace" font-size="16" font-weight="700" fill="#FF5C00">02. FULL STACK DEVELOPER</text>
+  
+  <rect x="820" y="380" width="280" height="42" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="840" y="407" font-family="monospace" font-size="16" font-weight="700" fill="#9D4EDD">03. AI AGENT</text>
+  
+  <line x1="100" y1="480" x2="1100" y2="480" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  
+  <text x="100" y="540" font-family="sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">INNOVATE. <tspan fill="#FF5C00">BUILD.</tspan> ELEVATE.</text>
+  <text x="100" y="570" font-family="monospace" font-size="15" fill="#9CA3AF">github.com/HARSHAN-7 • linkedin.com/in/harshanrasu</text>
+</svg>
