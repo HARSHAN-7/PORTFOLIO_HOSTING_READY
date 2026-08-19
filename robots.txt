@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://harshanrasu.com/sitemap.xml
+Sitemap: https://harshan26.in/sitemap.xml
