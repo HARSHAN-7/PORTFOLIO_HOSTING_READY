@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshan Rasu — Agentic AI Developer</title>
+  <meta name="description" content="Agentic AI Developer & Automation Architect specializing in autonomous LLM workflows, n8n, LangChain RAG, and Webhooks." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom DEV/PIXEL Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+     TOP HEADER BAR
+     ========================================================================== -->
+  <header class="devpixel-header-bar">
+    <div class="wide-canvas" style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+      
+      <a href="#hero" class="devpixel-logo" style="text-decoration: none; color: #FFF; font-weight: 900; font-size: 1.2rem;">
+        HARSHAN<span style="color: var(--lime-accent);">/AI</span>
+      </a>
+
+      <nav class="devpixel-nav-links">
+        <a href="#hero" class="devpixel-nav-link">HOME</a>
+        <a href="#about" class="devpixel-nav-link">ABOUT</a>
+        <a href="#intent" class="devpixel-nav-link">INTENT</a>
+        <a href="#skills" class="devpixel-nav-link">TOOLS</a>
+        <a href="#services" class="devpixel-nav-link">SERVICES</a>
+        <a href="#work" class="devpixel-nav-link">WORK</a>
+        <a href="#experience" class="devpixel-nav-link">EXPERIENCE</a>
+        <a href="#contact" class="devpixel-nav-link">CONTACT</a>
+      </nav>
+
+      <div>
+        <a href="#contact" class="devpixel-btn-lime" style="padding: 0.6rem 1.25rem; font-size: 0.8rem;">
+          LET'S BUILD ↗
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+     1. HERO SECTION (WE BUILD AI AGENTS THAT WORK.)
+     ========================================================================== -->
+  <section id="hero" style="min-height: calc(100vh - 64px); display: flex; flex-direction: column; justify-content: space-between; padding-top: 64px; background: #FFFFFF; border-bottom: 1px solid var(--border-light); position: relative; overflow: hidden;">
+    
+    <div class="wide-canvas" style="flex: 1; display: flex; align-items: center; position: relative; z-index: 1; width: 100%; padding: 2rem 1.5rem;">
+      <div style="display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: center; width: 100%;" class="hero-devpixel-grid">
+
+        <!-- Left Column -->
+        <div style="position: relative; z-index: 2;">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
+            <div style="font-weight: 900; font-size: 1.2rem; color: #050505;">✕</div>
+            <span class="mono-meta" style="color: var(--text-muted); font-size: 0.72rem; letter-spacing: 0.14em;">
+              AUTONOMOUS INTELLIGENCE FOR A BIGGER TOMORROW
+            </span>
+          </div>
+
+          <h1 style="font-size: clamp(3rem, 6.8vw, 5.8rem); font-weight: 900; line-height: 0.92; letter-spacing: -0.045em; margin-bottom: 1.5rem; color: #050505;">
+            WE BUILD<br />
+            <span style="color: var(--blue-primary);">AI AGENTS</span><br />
+            THAT WORK.
+          </h1>
+
+          <p style="font-size: clamp(1rem, 1.4vw, 1.2rem); color: #050505; font-weight: 700; line-height: 1.4; margin-bottom: 0.35rem;">
+            Design. Build. Deploy. Scale.
+          </p>
+          <p style="font-size: clamp(0.95rem, 1.2vw, 1.1rem); color: var(--text-muted); max-width: 460px; line-height: 1.5; font-weight: 500; margin-bottom: 2rem;">
+            Autonomous AI agents for real-world impact.
+          </p>
+
+          <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+            <a href="#contact" class="devpixel-btn-lime">
+              START YOUR PROJECT ↗
+            </a>
+            <div class="devpixel-btn-black">
+              AVAILABLE FOR BUSINESSES
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Electric Blue Backdrop + Neon Lime X + Harshan's Cutout Suit Photo -->
+        <div style="position: relative; display: flex; justify-content: center; align-items: flex-end; height: 100%; min-height: 420px;">
+          
+          <div style="position: absolute; top: -15%; right: -5%; width: 100%; height: 130%; background: var(--blue-primary); clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%); z-index: 0;"></div>
+          
+          <div style="position: absolute; bottom: 5%; right: 5%; font-size: clamp(10rem, 22vw, 20rem); font-weight: 900; color: var(--lime-accent); z-index: 1; line-height: 0.75; user-select: none;">
+            ✕
+          </div>
+
+          <div style="position: relative; z-index: 2; max-height: calc(100vh - 160px); display: flex; align-items: flex-end;">
+            <img src="assets/harshan_clean_nobg.png" alt="Harshan Rasu" style="height: auto; max-height: calc(100vh - 160px); width: auto; max-width: 100%; object-fit: contain; filter: drop-shadow(0 20px 40px rgba(5,5,5,0.3));" />
+          </div>
+
+          <div class="hero-right-accents" style="position: absolute; top: 5%; right: 2%; z-index: 3; display: flex; flex-direction: column; align-items: flex-end; gap: 1.25rem;">
+            <div class="mono-meta" style="text-align: right; font-size: 0.65rem; line-height: 1.3; color: #050505; font-weight: 800;">
+              MORE<br />AGENTS<br />BRIGHTER<br />POSSIBILITIES
+            </div>
+            <div style="color: #050505; letter-spacing: 3px; font-weight: 900; font-size: 0.8rem;">//////</div>
+          </div>
+
+          <div class="hero-bottom-right-card" style="position: absolute; bottom: 5%; right: 0; z-index: 3; background: #050505; color: #FFF; padding: 1rem 1.25rem; border-radius: 8px 0 0 8px; display: flex; align-items: center; gap: 0.85rem;">
+            <div class="mono-meta" style="font-size: 0.65rem; color: #FFF; font-weight: 800; line-height: 1.3;">
+              BUILDING THE AGENT<br />POWERED ECONOMY
+            </div>
+            <div class="icon-box-centered" style="width: 28px; height: 28px; background: var(--lime-accent); color: #050505; border-radius: 4px;">
+              ↗
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Ticker Strip -->
+    <div style="background: #F4F4F6; border-top: 1px solid var(--border-light); padding: 0.85rem 0; position: relative; z-index: 2;">
+      <div class="wide-canvas" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem;">
+        <span class="mono-meta" style="color: #050505; font-weight: 800; font-size: 0.78rem;">
+          STRATEGY <span style="color: var(--blue-primary); margin: 0 0.5rem;">✕</span> AGENTS <span style="color: var(--blue-primary); margin: 0 0.5rem;">✕</span> AUTOMATION <span style="color: var(--blue-primary); margin: 0 0.5rem;">✕</span> GROWTH
+        </span>
+        <span class="mono-meta" style="color: var(--text-muted); font-size: 0.7rem;">
+          ©2026 HARSHAN RASU // AGENTIC AI ARCHITECT
+        </span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ==========================================================================
+     2. BIOGRAPHY SECTION
+     ========================================================================== -->
+  <section id="about" class="section-spacing" style="border-bottom: 1px solid var(--border-light);">
+    <div class="wide-canvas">
+      
+      <div style="margin-bottom: 4rem;">
+        <span class="mono-meta" style="color: var(--text-dark); font-weight: 700; display: block; margin-bottom: 0.75rem;">
+          01 // BIOGRAPHY & EXECUTIVE PROFILE
+        </span>
+        <h2 style="font-size: clamp(2.8rem, 6vw, 5.5rem); font-weight: 900;">
+          Biography
+        </h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: 4rem; align-items: start;" class="about-executive-grid">
+        
+        <div>
+          <div style="width: 100%; aspect-ratio: 4 / 5; border-radius: 24px; overflow: hidden; border: 1.5px solid var(--border-light); margin-bottom: 2rem; background: #FFF; position: relative;">
+            <img src="assets/harshan_clean_nobg.png" alt="Harshan Rasu" style="width: 100%; height: 100%; object-fit: cover;" />
+            <div style="position: absolute; bottom: 1rem; left: 50%; transform: translateX(-50%); background: rgba(246, 244, 239, 0.95); border: 1px solid var(--border-light); padding: 0.4rem 1rem; border-radius: 9999px; white-space: nowrap;">
+              <span class="mono-meta" style="color: var(--text-dark); font-weight: 700; font-size: 0.7rem;">
+                HARSHAN RASU // BIOGRAPHY
+              </span>
+            </div>
+          </div>
+
+          <div style="background: #FFF; border: 1px solid var(--border-light); padding: 1.5rem; border-radius: 16px;">
+            <span class="mono-meta" style="color: var(--text-dark); font-weight: 700; display: block; margin-bottom: 0.75rem;">
+              VERIFIED CREDENTIALS
+            </span>
+            <div style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.9rem; font-weight: 600;">
+              <div>✓ Oracle Cloud Infrastructure — GenAI Professional (2025)</div>
+              <div>✓ Azure AI Fundamentals (2025)</div>
+              <div>✓ IBM AI Fundamentals (2026)</div>
+              <div>✓ Google Analytics (2026)</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          <h3 style="font-size: clamp(1.8rem, 3.2vw, 2.5rem); font-weight: 800; line-height: 1.25;">
+            I'm Harshan Rasu — Agentic AI Developer.
+          </h3>
+          <p style="color: var(--text-muted); font-size: 1.15rem; line-height: 1.7;">
+            Specializing in autonomous, LLM-powered automation built with n8n, Make, Zapier, and the OpenAI API. I design multi-step agent orchestration, RAG pipelines, tool-use, and webhook-triggered workflows running end-to-end without human intervention.
+          </p>
+          <p style="color: var(--text-muted); font-size: 1.15rem; line-height: 1.7;">
+            Currently pursuing B.E. in Mechanical Engineering at SNS College of Engineering, Coimbatore (CGPA: 8.77/10.0). Authored research paper submitted to IEEE Xplore on intelligent motion monitoring and thief detection.
+          </p>
+
+          <div style="background: #FFF; border: 1px solid var(--border-light); padding: 1.5rem; border-radius: 16px;">
+            <div class="mono-meta" style="color: var(--text-dark); font-weight: 700; margin-bottom: 0.4rem;">
+              📄 RESEARCH PUBLICATION // IEEE XPLORE
+            </div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: var(--text-dark);">
+              "An Intelligent System for Real-Time Thief Detection and Motion Monitoring"
+            </div>
+            <div class="mono-meta" style="color: var(--text-muted); margin-top: 0.5rem;">
+              Submitted to IEEE Xplore • Nov 2024
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-light);">
+            <div>
+              <div style="font-size: 2.5rem; font-weight: 800;">8.77 / 10</div>
+              <div class="mono-meta">B.E. Mechanical CGPA</div>
+            </div>
+            <div>
+              <div style="font-size: 2.5rem; font-weight: 800;">90%+</div>
+              <div class="mono-meta">Automation Efficiency Gain</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     3. STATEMENT OF INTENT
+     ========================================================================== -->
+  <section id="intent" class="section-spacing" style="border-bottom: 1px solid var(--border-light); background: #FFFFFF;">
+    <div class="wide-canvas" style="max-width: 960px; margin: 0 auto; text-align: center;">
+      <span class="mono-meta" style="color: var(--text-muted); margin-bottom: 1.75rem; display: block;">
+        STATEMENT OF INTENT & CORE PRINCIPLES
+      </span>
+      <p style="font-size: clamp(1.4rem, 2.7vw, 2.2rem); font-weight: 700; line-height: 1.45; color: var(--text-dark); margin: 0;">
+        <span class="intent-word">Agentic</span> <span class="intent-word">AI</span> <span class="intent-word">Developer</span> <span class="intent-word">specializing</span> <span class="intent-word">in</span> <span class="intent-word">autonomous,</span> <span class="intent-word">LLM-powered</span> <span class="intent-word">automation</span> <span class="intent-word">built</span> <span class="intent-word">with</span> <span class="intent-word">n8n,</span> <span class="intent-word">Make,</span> <span class="intent-word">Zapier,</span> <span class="intent-word">and</span> <span class="intent-word">the</span> <span class="intent-word">OpenAI</span> <span class="intent-word">API.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     4. TOOLS SECTION
+     ========================================================================== -->
+  <section id="skills" class="section-spacing" style="border-bottom: 1px solid var(--border-light);">
+    <div class="wide-canvas">
+      <div style="margin-bottom: 3.5rem;">
+        <span class="mono-meta" style="color: var(--text-dark); font-weight: 700; display: block; margin-bottom: 0.75rem;">
+          02 // TECHNICAL PROFICIENCIES & STACK
+        </span>
+        <h2 style="font-size: clamp(2.8rem, 6vw, 5.5rem); font-weight: 900;">
+          Tools & Stack
+        </h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+        <div style="background: #FFF; border: 1px solid var(--border-light); border-radius: 16px; padding: 2rem;">
+          <h3 style="font-size: 1.25rem; font-weight: 900; margin-bottom: 1.25rem;">AI AGENTS & AUTOMATION</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">n8n</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Make</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Zapier</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Webhooks</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Agentic Pipelines</span>
+          </div>
+        </div>
+
+        <div style="background: #FFF; border: 1px solid var(--border-light); border-radius: 16px; padding: 2rem;">
+          <h3 style="font-size: 1.25rem; font-weight: 900; margin-bottom: 1.25rem;">LLMs & RAG ARCHITECTURES</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">OpenAI GPT API</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Prompt Engineering</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">RAG</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Pinecone / FAISS</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">LangChain</span>
+          </div>
+        </div>
+
+        <div style="background: #FFF; border: 1px solid var(--border-light); border-radius: 16px; padding: 2rem;">
+          <h3 style="font-size: 1.25rem; font-weight: 900; margin-bottom: 1.25rem;">LANGUAGES & CORE TOOLS</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Python</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Pandas</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">NumPy</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">SQL</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">REST APIs</span>
+          </div>
+        </div>
+
+        <div style="background: #FFF; border: 1px solid var(--border-light); border-radius: 16px; padding: 2rem;">
+          <h3 style="font-size: 1.25rem; font-weight: 900; margin-bottom: 1.25rem;">MACHINE LEARNING & CLOUD</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Isolation Forest</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Anomaly Detection</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Azure AI</span>
+            <span style="background: #F4F4F6; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.82rem;">Oracle OCI GenAI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     5. SERVICE SECTION
+     ========================================================================== -->
+  <section id="services" class="section-spacing" style="border-bottom: 1px solid var(--border-light); background: #FFFFFF;">
+    <div class="wide-canvas">
+      <div style="margin-bottom: 3.5rem;">
+        <span class="mono-meta" style="color: var(--blue-primary); font-weight: 800; display: block; margin-bottom: 0.4rem;">
+          03 // CAPABILITIES & OFFERINGS
+        </span>
+        <h2 style="font-size: clamp(2.8rem, 6vw, 5.5rem); font-weight: 900;">
+          Services
+        </h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        <div style="background: #F4F4F6; border: 1px solid var(--border-light); border-radius: 14px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <h3 style="font-size: 1.4rem; font-weight: 900; margin-bottom: 0.5rem;">Agentic AI Systems</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem;">
+              Designing end-to-end multi-agent pipelines with tool-use, dynamic branching, validation logic, and self-correcting error handling.
+            </p>
+          </div>
+          <a href="#contact" class="devpixel-btn-black" style="width: fit-content;">INQUIRE SERVICE ↗</a>
+        </div>
+
+        <div style="background: #F4F4F6; border: 1px solid var(--border-light); border-radius: 14px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <h3 style="font-size: 1.4rem; font-weight: 900; margin-bottom: 0.5rem;">n8n / Make / Zapier Workflows</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem;">
+              Building production-grade automation workflows connecting custom webhooks, OpenAI APIs, CRM systems, and database pipelines.
+            </p>
+          </div>
+          <a href="#contact" class="devpixel-btn-black" style="width: fit-content;">INQUIRE SERVICE ↗</a>
+        </div>
+
+        <div style="background: #F4F4F6; border: 1px solid var(--border-light); border-radius: 14px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <h3 style="font-size: 1.4rem; font-weight: 900; margin-bottom: 0.5rem;">RAG & Vector Search</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem;">
+              Constructing Retrieval-Augmented Generation agents for grounded document Q&A, chunk embedding, and hallucination reduction.
+            </p>
+          </div>
+          <a href="#contact" class="devpixel-btn-black" style="width: fit-content;">INQUIRE SERVICE ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     FEATURED WORK & CASE STUDIES
+     ========================================================================== -->
+  <section id="work" class="section-spacing" style="background: #FFFFFF; border-bottom: 1px solid var(--border-light);">
+    <div class="wide-canvas">
+      
+      <!-- 4-Card Strip -->
+      <div style="margin-bottom: 5rem;">
+        <div style="background: #050505; color: #FFF; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem; border-radius: 8px;">
+          <span class="mono-meta" style="color: #FFF; font-weight: 800;">FEATURED WORK</span>
+          <span class="mono-meta" style="color: var(--lime-accent);">SEE ALL PROJECTS ↗</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem;">
+          
+          <div class="devpixel-work-card" data-open-modal data-title="Resume Analyzer AI" data-category="Autonomous ATS Agent" data-summary="Built a fully autonomous webhook-triggered agent that scores resumes against job descriptions." data-impact="90%+ Time Saved" style="background: var(--blue-primary); color: #FFF; border-radius: 12px; padding: 1.75rem 1.5rem; min-height: 210px; display: flex; flex-direction: column; justify-content: space-between; cursor: pointer;">
+            <div>
+              <h3 style="font-size: 2rem; font-weight: 900; color: #FFF; margin-bottom: 0.5rem;">Resume Analyzer AI</h3>
+              <span class="mono-meta" style="color: rgba(255,255,255,0.8); font-size: 0.68rem;">Autonomous ATS Agent</span>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 0.85rem;">
+              <span class="mono-meta" style="color: #FFF; font-size: 0.7rem;">90%+ Time Saved</span>
+              <span>↗</span>
+            </div>
+          </div>
+
+          <div class="devpixel-work-card" data-open-modal data-title="Social Media AI Content Generator" data-category="Zero-Touch Instagram Agent" data-summary="Agentic pipeline that turns brand inputs into published Instagram posts autonomously." data-impact="100% Autonomous" style="background: #F4F4F6; border: 1px solid var(--border-light); color: #050505; border-radius: 12px; padding: 1.75rem 1.5rem; min-height: 210px; display: flex; flex-direction: column; justify-content: space-between; cursor: pointer;">
+            <div>
+              <h3 style="font-size: 2rem; font-weight: 900; color: #050505; margin-bottom: 0.5rem;">Social Content AI</h3>
+              <span class="mono-meta" style="color: var(--text-muted); font-size: 0.68rem;">Zero-Touch Instagram</span>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-light); padding-top: 0.85rem;">
+              <span class="mono-meta" style="color: #050505; font-size: 0.7rem;">100% Autonomous</span>
+              <span>↗</span>
+            </div>
+          </div>
+
+          <div class="devpixel-work-card" data-open-modal data-title="OceanShield AI" data-category="Real-Time Threat Detection" data-summary="Surveillance agent detecting illegal vessel activity via Isolation Forest anomaly detection." data-impact="&lt;5% False Positive Rate" style="background: #050505; color: #FFF; border-radius: 12px; padding: 1.75rem 1.5rem; min-height: 210px; display: flex; flex-direction: column; justify-content: space-between; cursor: pointer;">
+            <div>
+              <h3 style="font-size: 2rem; font-weight: 900; color: #FFF; margin-bottom: 0.5rem;">OceanShield AI</h3>
+              <span class="mono-meta" style="color: #888; font-size: 0.68rem;">Real-Time Threat Detection</span>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 0.85rem;">
+              <span class="mono-meta" style="color: var(--lime-accent); font-size: 0.7rem;">&lt;5% False Positives</span>
+              <span>↗</span>
+            </div>
+          </div>
+
+          <div class="devpixel-work-card" data-open-modal data-title="AI PDF Chat Assistant" data-category="RAG Vector Search" data-summary="Retrieval-Augmented Generation agent for document Q&A using LangChain and Pinecone." data-impact="0% Hallucinations" style="background: var(--lime-accent); color: #050505; border-radius: 12px; padding: 1.75rem 1.5rem; min-height: 210px; display: flex; flex-direction: column; justify-content: space-between; cursor: pointer;">
+            <div>
+              <h3 style="font-size: 2rem; font-weight: 900; color: #050505; margin-bottom: 0.5rem;">AI PDF Assistant</h3>
+              <span class="mono-meta" style="color: #050505; font-size: 0.68rem; font-weight: 800;">RAG Vector Search</span>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(5,5,5,0.2); padding-top: 0.85rem;">
+              <span class="mono-meta" style="color: #050505; font-weight: 900; font-size: 0.8rem;">0% Hallucinations</span>
+              <span>↗</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Case Studies Selector Showcase -->
+      <div id="casestudies">
+        <div style="margin-bottom: 2rem;">
+          <span class="mono-meta" style="color: var(--blue-primary); font-weight: 800; display: block; margin-bottom: 0.4rem;">
+            INTERACTIVE CASE STUDIES
+          </span>
+          <h2 style="font-size: clamp(2.2rem, 4.5vw, 4rem); font-weight: 900;">
+            Deep Dive Projects
+          </h2>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: stretch;" class="casestudies-split-grid">
+          
+          <!-- Selector List -->
+          <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+            <div class="casestudy-selector-item active" data-title="Resume Analyzer AI" data-category="Autonomous ATS Scoring Agent" data-summary="Built a fully autonomous webhook-triggered agent (PDF Extract → Validation → LLM Prompt Engineering → Structured JSON) that scores resumes against job descriptions." data-impact="90%+ Manual Time Saved" data-tech="n8n,OpenAI API,Webhook,PDF Extraction" style="background: #050505; color: #FFF; padding: 1.25rem 1.5rem; border-radius: 10px; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex; align-items: center; gap: 1.25rem;">
+                <span class="mono-meta" style="color: var(--lime-accent); font-size: 1rem; font-weight: 900;">01</span>
+                <div>
+                  <div style="font-size: 1.15rem; font-weight: 900;">RESUME ANALYZER AI</div>
+                  <div class="mono-meta" style="color: #AAA; font-size: 0.68rem; margin-top: 0.15rem;">Autonomous ATS Agent</div>
+                </div>
+              </div>
+              <span>↗</span>
+            </div>
+
+            <div class="casestudy-selector-item" data-title="Social Media AI Content Generator" data-category="Zero-Touch Instagram Agent" data-summary="Built an agentic pipeline (content generation → image detection → publish) that turns brand inputs into published Instagram posts autonomously." data-impact="100% Autonomous Publishing" data-tech="n8n,OpenAI API,Instagram Graph API,Webhook" style="background: #F4F4F6; color: #050505; padding: 1.25rem 1.5rem; border-radius: 10px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; border: 1px solid var(--border-light);">
+              <div style="display: flex; align-items: center; gap: 1.25rem;">
+                <span class="mono-meta" style="color: var(--text-muted); font-size: 1rem; font-weight: 900;">02</span>
+                <div>
+                  <div style="font-size: 1.15rem; font-weight: 900;">SOCIAL CONTENT AI</div>
+                  <div class="mono-meta" style="color: var(--text-muted); font-size: 0.68rem; margin-top: 0.15rem;">Zero-Touch Instagram</div>
+                </div>
+              </div>
+              <span>↗</span>
+            </div>
+
+            <div class="casestudy-selector-item" data-title="OceanShield AI" data-category="Real-Time Threat-Detection Agent" data-summary="Built an autonomous surveillance agent detecting illegal vessel activity via Isolation Forest anomaly detection on live AIS streams." data-impact="&lt;5% False-Positive Rate" data-tech="Python,Scikit-learn,Isolation Forest,Folium" style="background: #F4F4F6; color: #050505; padding: 1.25rem 1.5rem; border-radius: 10px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; border: 1px solid var(--border-light);">
+              <div style="display: flex; align-items: center; gap: 1.25rem;">
+                <span class="mono-meta" style="color: var(--text-muted); font-size: 1rem; font-weight: 900;">03</span>
+                <div>
+                  <div style="font-size: 1.15rem; font-weight: 900;">OCEANSHIELD AI</div>
+                  <div class="mono-meta" style="color: var(--text-muted); font-size: 0.68rem; margin-top: 0.15rem;">Surveillance Agent</div>
+                </div>
+              </div>
+              <span>↗</span>
+            </div>
+          </div>
+
+          <!-- Feature Display Card -->
+          <div style="background: var(--blue-primary); color: #FFF; border-radius: 16px; padding: 2.5rem 2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 16px 40px rgba(0,71,255,0.2);">
+            <div>
+              <span class="mono-meta" style="color: var(--lime-accent); font-weight: 800; font-size: 0.75rem; display: block; margin-bottom: 0.85rem;">
+                FEATURED CASE STUDY
+              </span>
+              <h3 id="cs-display-title" style="font-size: clamp(2.2rem, 4.5vw, 3.5rem); font-weight: 900; color: #FFF; margin-bottom: 1rem;">
+                Resume Analyzer AI
+              </h3>
+              <p id="cs-display-summary" style="color: rgba(255,255,255,0.9); font-size: 1.05rem; line-height: 1.55; margin-bottom: 2rem;">
+                Built a fully autonomous webhook-triggered agent (PDF Extract → Validation → LLM Prompt Engineering → Structured JSON) that scores resumes against job descriptions.
+              </p>
+              <div id="cs-display-tech" style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 2rem;">
+                <span style="background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #FFF; font-size: 0.78rem; font-weight: 700; padding: 0.35rem 0.75rem; border-radius: 6px;">n8n</span>
+                <span style="background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #FFF; font-size: 0.78rem; font-weight: 700; padding: 0.35rem 0.75rem; border-radius: 6px;">OpenAI API</span>
+                <span style="background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #FFF; font-size: 0.78rem; font-weight: 700; padding: 0.35rem 0.75rem; border-radius: 6px;">Webhook</span>
+              </div>
+              <div style="background: rgba(5,5,5,0.3); border: 1px solid rgba(255,255,255,0.2); padding: 1rem 1.25rem; border-radius: 10px; display: inline-flex; align-items: center; gap: 0.85rem; margin-bottom: 2rem;">
+                <div>
+                  <div id="cs-display-impact" style="font-size: 1.6rem; font-weight: 900; color: var(--lime-accent);">90%+ Manual Time Saved</div>
+                  <div class="mono-meta" style="color: #FFF; font-size: 0.68rem; margin-top: 0.2rem;">VERIFIED RESUME IMPACT</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <a href="#contact" class="devpixel-btn-lime" style="width: fit-content;">READ FULL CASE STUDY ↗</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     6. EXPERIENCE SECTION
+     ========================================================================== -->
+  <section id="experience" class="section-spacing" style="border-bottom: 1px solid var(--border-light);">
+    <div class="wide-canvas">
+      
+      <div style="margin-bottom: 4rem;">
+        <span class="mono-meta" style="color: var(--text-dark); font-weight: 700; display: block; margin-bottom: 0.75rem;">
+          04 // WORK HISTORY & EXPERIENCE
+        </span>
+        <h2 style="font-size: clamp(2.8rem, 6vw, 5.5rem); font-weight: 900;">
+          Experience
+        </h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: start;" class="about-executive-grid">
+        
+        <!-- Timeline Column -->
+        <div style="display: flex; flex-direction: column; gap: 2rem; border-left: 2px solid var(--border-light); padding-left: 1.5rem; position: relative;">
+          
+          <div style="position: relative;">
+            <div style="position: absolute; top: 4px; left: -1.95rem; width: 14px; height: 14px; border-radius: 50%; background: var(--blue-primary);"></div>
+            <div class="mono-meta" style="color: var(--blue-primary); font-weight: 800; font-size: 0.75rem;">JUL 2024 – PRESENT</div>
+            <h3 style="font-size: 1.35rem; font-weight: 900; margin-top: 0.25rem;">AI Automation & Agentic Workflow Developer</h3>
+            <div class="mono-meta" style="color: var(--text-muted); margin-bottom: 0.75rem;">Independent / Freelance Projects — Remote</div>
+            <ul style="color: var(--text-muted); font-size: 0.98rem; line-height: 1.6; padding-left: 1.2rem;">
+              <li>Designed and shipped 5 production-style autonomous AI agent pipelines using n8n, LangChain, and OpenAI API.</li>
+              <li>Reduced manual processing time by an estimated 90%+ per workflow.</li>
+            </ul>
+          </div>
+
+          <div style="position: relative; margin-top: 1.5rem;">
+            <div style="position: absolute; top: 4px; left: -1.95rem; width: 14px; height: 14px; border-radius: 50%; background: #050505;"></div>
+            <div class="mono-meta" style="color: var(--text-muted); font-weight: 800; font-size: 0.75rem;">JUL 2024 – DEC 2024</div>
+            <h3 style="font-size: 1.35rem; font-weight: 900; margin-top: 0.25rem;">Data Analytics & Machine Learning Intern</h3>
+            <div class="mono-meta" style="color: var(--text-muted); margin-bottom: 0.75rem;">YBI Foundation — Remote</div>
+            <ul style="color: var(--text-muted); font-size: 0.98rem; line-height: 1.6; padding-left: 1.2rem;">
+              <li>Built automated Python ETL pipelines cutting null values and duplicate records by ~20%.</li>
+              <li>Achieved 92% classification accuracy on healthcare prediction model.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- 2+ Years Experience Callout Card -->
+        <div style="background: var(--lime-accent); color: #050505; border-radius: 20px; padding: 2.5rem 2rem; display: flex; flex-direction: column; justify-content: space-between; min-height: 320px;">
+          <div>
+            <span class="mono-meta" style="color: #050505; font-weight: 900; font-size: 0.8rem; display: block; margin-bottom: 1rem;">
+              AUTONOMOUS AI AUTOMATION
+            </span>
+            <div style="font-size: clamp(3.5rem, 8vw, 5rem); font-weight: 900; line-height: 0.9; margin-bottom: 1rem;">
+              2+ YEARS
+            </div>
+            <div style="font-size: 1.15rem; font-weight: 800; text-transform: uppercase;">
+              OF HANDS-ON AI & ML DEVELOPMENT
+            </div>
+          </div>
+          <div>
+            <a href="assets/Harshan_Rasu_Agentic_AI_Developer-1.pdf" download class="devpixel-btn-black" style="width: fit-content; text-decoration: none;">
+              DOWNLOAD RESUME CV ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     7. CTAS & CONTACT FORM (WEB3FORMS LIVE)
+     ========================================================================== -->
+  <div id="contact" style="background: #050505; color: #FFFFFF;">
+    
+    <section class="section-spacing" style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <div class="wide-canvas">
+        <div style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: stretch;" class="contact-devpixel-grid">
+
+          <div style="background: var(--blue-primary); border-radius: 16px; padding: 3rem 2.5rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 16px 40px rgba(0, 71, 255, 0.25);">
+            <div>
+              <span class="mono-meta" style="color: var(--lime-accent); font-weight: 900; font-size: 0.8rem; display: block; margin-bottom: 1rem;">
+                START A PROJECT
+              </span>
+              <h2 style="font-size: clamp(2.5rem, 5.5vw, 4.5rem); font-weight: 900; color: #FFF; line-height: 0.92; margin-bottom: 2rem;">
+                LET'S BUILD SOMETHING GREAT TOGETHER.
+              </h2>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.6rem;">
+              <span style="width: 8px; height: 8px; border-radius: 50%; background: var(--lime-accent); display: inline-block;"></span>
+              <span class="mono-meta" style="color: var(--lime-accent); font-weight: 900; font-size: 0.8rem;">
+                ↗ AVAILABLE FOR FULL-TIME & FREELANCE
+              </span>
+            </div>
+          </div>
+
+          <div style="background: #F4F4F6; color: #050505; border-radius: 16px; padding: 2.5rem 2rem; display: flex; flex-direction: column; justify-content: space-between;">
+            
+            <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 1.75rem;">
+              <div style="display: flex; align-items: center; gap: 0.85rem;">
+                <div class="icon-box-centered" style="width: 40px; height: 40px; border-radius: 8px; background: #050505; color: #FFF;">✉</div>
+                <div>
+                  <div class="mono-meta" style="color: var(--text-muted); font-size: 0.68rem;">EMAIL DIRECT</div>
+                  <a href="mailto:harshan0077888@gmail.com" style="font-size: 1.05rem; font-weight: 800; color: #050505; text-decoration: none;">harshan0077888@gmail.com</a>
+                </div>
+              </div>
+
+              <div style="display: flex; align-items: center; gap: 0.85rem;">
+                <div class="icon-box-centered" style="width: 40px; height: 40px; border-radius: 8px; background: #050505; color: #FFF;">📞</div>
+                <div>
+                  <div class="mono-meta" style="color: var(--text-muted); font-size: 0.68rem;">PHONE / WHATSAPP</div>
+                  <a href="tel:+916381534316" style="font-size: 1.05rem; font-weight: 800; color: #050505; text-decoration: none;">+91 6381534316</a>
+                </div>
+              </div>
+
+              <div style="display: flex; align-items: center; gap: 0.85rem;">
+                <div class="icon-box-centered" style="width: 40px; height: 40px; border-radius: 8px; background: #050505; color: #FFF;">📍</div>
+                <div>
+                  <div class="mono-meta" style="color: var(--text-muted); font-size: 0.68rem;">LOCATION</div>
+                  <div style="font-size: 1.05rem; font-weight: 800; color: #050505;">Coimbatore, TN • Remote</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Web3Forms Form -->
+            <form id="web3forms-form" style="display: flex; flex-direction: column; gap: 0.85rem;">
+              <input type="hidden" name="access_key" value="14e5efc0-b40e-4396-acb2-bc5c2f6fae44" />
+              
+              <input type="text" name="name" placeholder="YOUR NAME" required style="background: #FFF; border: 1px solid var(--border-light); padding: 0.8rem 0.95rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem;" />
+              <input type="email" name="email" placeholder="YOUR EMAIL" required style="background: #FFF; border: 1px solid var(--border-light); padding: 0.8rem 0.95rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem;" />
+              <textarea name="message" placeholder="PROJECT DETAILS / MESSAGE" required rows="3" style="background: #FFF; border: 1px solid var(--border-light); padding: 0.8rem 0.95rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem; resize: none;"></textarea>
+
+              <div id="form-success-alert" style="display: none; background: #10B981; color: #FFF; padding: 0.65rem 1rem; border-radius: 6px; font-size: 0.85rem; font-weight: 800;">
+                MESSAGE SENT SUCCESSFULLY! HARSHAN WILL REPLY SHORTLY.
+              </div>
+
+              <div id="form-error-alert" style="display: none; background: #EF4444; color: #FFF; padding: 0.65rem 1rem; border-radius: 6px; font-size: 0.85rem; font-weight: 800;">
+                SUBMISSION FAILED. PLEASE TRY AGAIN.
+              </div>
+
+              <button type="submit" id="submit-btn" class="devpixel-btn-black" style="width: 100%; justify-content: center;">
+                SEND INQUIRY ↗
+              </button>
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Black Footer -->
+    <footer style="padding: 2rem 0; background: #050505;">
+      <div class="wide-canvas" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.25rem;">
+        <div class="devpixel-logo">
+          HARSHAN<span style="color: var(--lime-accent);">/AI</span>
+        </div>
+        <div class="mono-meta" style="color: #888; font-size: 0.72rem;">
+          © 2026 HARSHAN RASU. ALL RIGHTS RESERVED.
+        </div>
+        <div style="display: flex; align-items: center; gap: 1.25rem;">
+          <a href="https://github.com/harshanrasu" target="_blank" class="mono-meta" style="color: #FFF; text-decoration: none;">GITHUB</a>
+          <a href="https://linkedin.com/in/harshanrasu" target="_blank" class="mono-meta" style="color: #FFF; text-decoration: none;">LINKEDIN</a>
+          <a href="https://harshan26.in" target="_blank" class="mono-meta" style="color: #FFF; text-decoration: none;">WEBSITE</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Modal Popup -->
+  <div id="project-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+        <div>
+          <span id="modal-category" class="mono-meta" style="color: var(--blue-primary);">CATEGORY</span>
+          <h3 id="modal-title" style="font-size: 2rem; font-weight: 900; margin-top: 0.25rem;">Project Title</h3>
+        </div>
+        <button id="modal-close" style="background: none; border: none; font-size: 1.5rem; cursor: pointer;">✕</button>
+      </div>
+      <p id="modal-summary" style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.6; margin-bottom: 2rem;">
+        Detailed project summary...
+      </p>
+      <div style="background: #F4F4F6; padding: 1rem 1.25rem; border-radius: 10px;">
+        <span class="mono-meta">VERIFIED IMPACT:</span>
+        <div id="modal-impact" style="font-size: 1.4rem; font-weight: 900; color: var(--blue-primary); margin-top: 0.25rem;">Impact metric</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Vanilla JS Script -->
+  <script src="script.js"></script>
+</body>
+</html>

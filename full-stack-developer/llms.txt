@@ -1,0 +1,36 @@
+# Harshan Rasu — Full Stack Developer & AI Automation Specialist
+
+> Founder at Phanix Tech | AI Workflows | High-Performance Web Architectures
+
+## Profile Summary
+Harshan Rasu is a Full Stack Developer and AI Automation Specialist based in Coimbatore, Tamil Nadu, India. He specializes in building client-ready web platforms (MySQL, REST APIs, JSON APIs, Node/Python) and animation-rich, 3D WebGL front-ends (GSAP, Three.js, Lenis). He is the founder of **Phanix Tech**, a digital agency delivering full-stack engineering and AI workflow automation.
+
+## Core Capabilities
+- **Full Stack Web Development**: MySQL database architecture, RESTful API design, JSON data pipelines, authentication, and admin dashboards.
+- **Interactive & 3D Front-Ends**: GSAP ScrollTrigger timelines, Lenis inertia scrolling, WebGL / Three.js particle canvas engines, and responsive UI/UX.
+- **AI & Modern Developer Tools**: Google Antigravity, Claude (Anthropic), Cursor, Lovable, FlutterFlow, Replit Agent, OpenAI API, n8n, Figma, and Git/GitHub.
+- **AI Workflow Engineering**: OpenAI API integration, custom prompt engineering, n8n automated pipelines, and Python machine learning.
+- **Business Platform Engineering**: Food ordering (TFC Chicken Alrabea), bakery ordering (Seb's Pastry), fitness platforms (Iron Forge Gym), and institutional web redesigns (SNS College of Engineering).
+
+## Education & Academic Background
+- **B.E. Mechanical Engineering** — SNS College of Engineering, Coimbatore (2023 – 2027), CGPA: 8.77 / 10.00.
+- **Core Computer Science Studies**: Statistics for Data Science, Probability, Linear Algebra, Machine Learning Fundamentals, and AI Agent Architecture.
+
+## Key Projects & Published Research
+- **IEEE Xplore Research Submission**: "An Intelligent System for Real-Time Thief Detection and Motion Monitoring" (Nov 2024).
+- **MCU Multiverse Hub**: Interactive platform for 14 superhero franchises using Canvas API and JSON data structure.
+- **Thalapathy 3D Experience**: Scroll-driven cinematic 3D visual showcase built with GSAP and Three.js.
+- **TFC Chicken Alrabea**: Full-stack food ordering platform with live cart, multi-step checkout, and order tracking.
+
+## Certifications
+- OCI Generative AI Professional (Oracle, 2025)
+- Google Analytics Certification (Google, 2026 – 2028)
+- Azure AI Fundamentals (Microsoft, 2025)
+- IBM SkillsBuild AI Fundamentals (IBM, 2026)
+
+## Contact & Links
+- **Email**: harshan0077888@gmail.com
+- **Phone**: +91 6381534316
+- **Website**: https://harshan26.in
+- **GitHub**: https://github.com/Harshan26
+- **LinkedIn**: https://linkedin.com/in/harshan-rasu
